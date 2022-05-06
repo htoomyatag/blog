@@ -74,3 +74,5 @@ end
 
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 gem 'devise'
+gem 'bootstrap', '~> 5.1.3'
+gem 'jquery-rails'
