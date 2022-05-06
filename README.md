@@ -1,24 +1,11 @@
-# README
+Technology
+- ruby 3.0.1
+- sqlite
+- devise for user sign in
+- faker gem for seed article data
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+How to run
+- Go to the project root directory
+- run bundle install to install required depencies
+- run rake db:create && rake db:migrate && rake db:seed to database ready
+- run rails server
