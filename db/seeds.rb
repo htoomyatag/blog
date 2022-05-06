@@ -7,7 +7,17 @@
 #   Character.create(name: "Luke", movie: movies.first)
 require 'faker'
 
-20.times do
- 	Article.create(title: Faker::Book.title, body: Faker::Lorem.paragraph_by_chars)
+5.times do
+ 	Article.create(title: Faker::Book.title, body: Faker::Lorem.paragraph_by_chars, status: 'public')
+end
+
+
+5.times do
+ 	Article.create(title: Faker::Book.title, body: Faker::Lorem.paragraph_by_chars, status: 'private')
+end
+
+
+5.times do
+ 	Article.create(title: Faker::Book.title, body: Faker::Lorem.paragraph_by_chars, status: 'archived')
 end
 
